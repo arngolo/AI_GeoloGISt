@@ -3,7 +3,7 @@ Inspired by the challenge `Be a Space Geologist` this project aims to explore Ha
 
 ## Data
 HLS data can downloaded by cloning the [hls-bulk-download](https://git.earthdata.nasa.gov/scm/lpdur/hls-bulk-download.git)repository and running the script  
-To authenticate, the `.netrc` file in the this repository should be modified accordingly and placed in the users HOME directory on MAC or USERPROFILE on windows).  
+To authenticate, the `.netrc` file in this repository should be modified accordingly and placed in the users HOME directory on MAC or USERPROFILE on windows). For windows, rename the file to `_netrc`.  
 
 Alternatively (recommended), HLS data can be manipulated in the cloud as COG as used in this project.
 
