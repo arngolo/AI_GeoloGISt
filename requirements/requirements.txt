@@ -1,0 +1,18 @@
+#WINDOWS 10 REQUIREMENTS
+# check installed python versions (where python)
+# create a python 10 venv: C:\Python310\python.exe -m venv hlc_cloud_optimazed_geotiff
+# Download the unofficial GDAL and rasterio wheel for windows from Christoph Gohlke: https://www.lfd.uci.edu/~gohlke/pythonlibs
+
+cartopy
+#GDAL-3.4.3-cp310-cp310-win_amd64.whl
+GDAL-3.4.3-cp311-cp311-win_amd64.whl
+#rasterio-1.2.10-cp310-cp310-win_amd64.whl
+rasterio-1.2.10-cp311-cp311-win_amd64.whl
+pip install rasterio[s3] #to read cog from AWS s3 bucket
+geopandas
+geoviews
+xarray
+scikit-image
+hvplot
+pyepsg
+jupyter
